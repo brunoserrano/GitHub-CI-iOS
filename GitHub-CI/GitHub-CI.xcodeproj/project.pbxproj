@@ -14,6 +14,9 @@
 		9ADC2E5623CFFCF6004BD951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ADC2E5523CFFCF6004BD951 /* Assets.xcassets */; };
 		9ADC2E5923CFFCF6004BD951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADC2E5723CFFCF6004BD951 /* LaunchScreen.storyboard */; };
 		9ADC2E6423CFFCF6004BD951 /* GitHub_CITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC2E6323CFFCF6004BD951 /* GitHub_CITests.swift */; };
+		9ADC2E7523D00109004BD951 /* Mintfile in Resources */ = {isa = PBXBuildFile; fileRef = 9ADC2E7323D00109004BD951 /* Mintfile */; };
+		9ADC2E7623D00109004BD951 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 9ADC2E7423D00109004BD951 /* Gemfile */; };
+		9ADC2E7823D0024D004BD951 /* bootstrap.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9ADC2E7723D0024D004BD951 /* bootstrap.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		9ADC2E5F23CFFCF6004BD951 /* GitHub-CITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitHub-CITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ADC2E6323CFFCF6004BD951 /* GitHub_CITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_CITests.swift; sourceTree = "<group>"; };
 		9ADC2E6523CFFCF6004BD951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ADC2E7323D00109004BD951 /* Mintfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mintfile; sourceTree = SOURCE_ROOT; };
+		9ADC2E7423D00109004BD951 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = SOURCE_ROOT; };
+		9ADC2E7723D0024D004BD951 /* bootstrap.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = bootstrap.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 		9ADC2E4023CFFCED004BD951 = {
 			isa = PBXGroup;
 			children = (
+				9ADC2E7223D00087004BD951 /* Scripts */,
 				9ADC2E4B23CFFCED004BD951 /* GitHub-CI */,
 				9ADC2E6223CFFCF6004BD951 /* GitHub-CITests */,
 				9ADC2E4A23CFFCED004BD951 /* Products */,
@@ -97,6 +104,16 @@
 				9ADC2E6523CFFCF6004BD951 /* Info.plist */,
 			);
 			path = "GitHub-CITests";
+			sourceTree = "<group>";
+		};
+		9ADC2E7223D00087004BD951 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				9ADC2E7723D0024D004BD951 /* bootstrap.sh */,
+				9ADC2E7423D00109004BD951 /* Gemfile */,
+				9ADC2E7323D00109004BD951 /* Mintfile */,
+			);
+			name = Scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +197,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ADC2E7523D00109004BD951 /* Mintfile in Resources */,
 				9ADC2E5923CFFCF6004BD951 /* LaunchScreen.storyboard in Resources */,
+				9ADC2E7623D00109004BD951 /* Gemfile in Resources */,
 				9ADC2E5623CFFCF6004BD951 /* Assets.xcassets in Resources */,
 				9ADC2E5423CFFCED004BD951 /* Main.storyboard in Resources */,
+				9ADC2E7823D0024D004BD951 /* bootstrap.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
